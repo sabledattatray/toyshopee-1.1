@@ -1,0 +1,6 @@
+{
+  "name": "Toy Shopee",
+  "description": "Ultra-premium eCommerce website for Toy Shopee, Badlapur's favorite toy and gift store. Features modern design, AI gift wizard, local delivery, loyalty program, and WhatsApp integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
