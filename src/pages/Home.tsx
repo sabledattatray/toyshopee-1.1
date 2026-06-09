@@ -31,6 +31,7 @@ function ProductCard({ product }: { product: Product, key?: React.Key }) {
         <img 
           src={product.images[0]} 
           alt={product.title} 
+          referrerPolicy="no-referrer"
           className="object-cover w-full h-full group-hover:scale-110 group-hover:rotate-3 transition-transform duration-500 rounded-xl shadow-inner" 
         />
         {product.isNewArrival && (
@@ -125,7 +126,7 @@ export function Home() {
                whileHover={{ rotate: 5, scale: 1.05 }}
                className="relative z-10 w-full max-w-lg aspect-square rounded-full overflow-hidden border-[12px] border-white shadow-[0_20px_50px_rgba(0,0,0,0.2)] transform cursor-pointer flex items-center justify-center bg-yellow-300"
              >
-               <img src="https://loremflickr.com/cache/resized/65535_54545265890_19b2380fd5_k_1200_600_nofilter.jpg" alt="Fun Toys" className="w-full h-full object-cover" />
+               <img src="https://loremflickr.com/cache/resized/65535_54545265890_19b2380fd5_k_1200_600_nofilter.jpg" alt="Fun Toys" referrerPolicy="no-referrer" className="w-full h-full object-cover" />
              </motion.div>
              {/* Floating bubbles */}
              <div className="absolute top-10 right-0 w-16 h-16 bg-pink-400 rounded-full mix-blend-screen opacity-70 animate-bounce" style={{animationDuration: '2s'}}></div>

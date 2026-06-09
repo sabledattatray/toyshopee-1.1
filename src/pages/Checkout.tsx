@@ -120,7 +120,7 @@ export function Checkout() {
                   
                   {paymentMethod === 'upi' && (
                     <div className="animate-in fade-in slide-in-from-top-4 bg-orange-50 p-6 rounded-[2rem] border-2 border-dashed border-orange-200 flex flex-col items-center text-center mx-4">
-                      <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=upi://pay?pa=shop@upi&pn=ToyShopee&cu=INR" alt="QR Code" className="w-32 h-32 rounded-xl mb-4 border-4 border-white shadow-sm" />
+                      <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=upi://pay?pa=shop@upi&pn=ToyShopee&cu=INR" alt="QR Code" referrerPolicy="no-referrer" className="w-32 h-32 rounded-xl mb-4 border-4 border-white shadow-sm" />
                       <p className="font-bold text-orange-600 text-sm">Scan QR with any UPI app to pay</p>
                     </div>
                   )}

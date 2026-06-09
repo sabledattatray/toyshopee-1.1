@@ -44,6 +44,7 @@ export function Wishlist() {
                 <img 
                   src={product.images[0]} 
                   alt={product.title} 
+                  referrerPolicy="no-referrer"
                   className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500" 
                 />
               </Link>

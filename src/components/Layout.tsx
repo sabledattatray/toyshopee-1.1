@@ -77,7 +77,7 @@ export function Layout() {
               <div className="flex items-center space-x-4">
                 {user ? (
                   <div className="relative group flex items-center space-x-2">
-                    <img src={user.photoURL || ''} alt="User" className="w-8 h-8 rounded-full border-2 border-indigo-200 cursor-pointer hover:border-indigo-500 transition-colors" />
+                    <img src={user.photoURL || ''} alt="User" referrerPolicy="no-referrer" className="w-8 h-8 rounded-full border-2 border-indigo-200 cursor-pointer hover:border-indigo-500 transition-colors" />
                     <div className="absolute right-0 top-10 w-48 bg-white border border-sky-100 rounded-2xl shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all flex flex-col p-2 z-50 transform origin-top-right group-hover:scale-100 scale-95">
                        <p className="text-sm font-bold text-slate-800 px-3 py-2 border-b border-slate-100 mb-1">{user.displayName}</p>
                        <Link to="/account" className="text-sm font-bold text-slate-600 hover:text-indigo-500 hover:bg-indigo-50 px-3 py-2 rounded-xl transition-colors">Dashboard</Link>

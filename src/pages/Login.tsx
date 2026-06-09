@@ -54,7 +54,7 @@ export function Login() {
               onClick={handleLogin}
               className="w-full bg-white border-4 border-slate-100 hover:border-sky-200 text-slate-700 font-black py-4 px-6 rounded-2xl flex items-center justify-center gap-3 transition-all hover:bg-sky-50 shadow-sm group"
             >
-              <img src="https://www.svgrepo.com/show/475656/google-color.svg" alt="Google" className="w-6 h-6 group-hover:scale-110 transition-transform" />
+              <img src="https://www.svgrepo.com/show/475656/google-color.svg" alt="Google" referrerPolicy="no-referrer" className="w-6 h-6 group-hover:scale-110 transition-transform" />
               Sign in with Google
             </button>
 

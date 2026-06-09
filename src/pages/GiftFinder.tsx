@@ -113,7 +113,7 @@ export function GiftFinder() {
                   <div className="space-y-6">
                     {getResults().map(product => (
                       <div key={product.id} className="flex p-4 border-4 border-sky-100 bg-white shadow-sm rounded-2xl hover:border-indigo-200 transition-all hover:shadow-md">
-                        <img src={product.images[0]} alt={product.title} className="w-28 h-28 rounded-xl object-cover border-2 border-slate-100" />
+                        <img src={product.images[0]} alt={product.title} referrerPolicy="no-referrer" className="w-28 h-28 rounded-xl object-cover border-2 border-slate-100" />
                         <div className="ml-4 flex-1 flex flex-col justify-center">
                            <h3 className="font-black text-lg text-slate-800 hover:text-indigo-500 transition-colors line-clamp-1">{product.title}</h3>
                            <p className="text-sm font-bold text-slate-500 mb-2 line-clamp-2">{product.description}</p>

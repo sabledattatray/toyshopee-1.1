@@ -46,7 +46,7 @@ export function Cart() {
               {items.map((item) => (
                 <div key={item.product.id} className="p-6 flex flex-col sm:flex-row items-center gap-6 group hover:bg-sky-50 transition-colors">
                   <div className="w-24 h-24 bg-sky-100 rounded-xl overflow-hidden border border-sky-200 flex-shrink-0 shadow-inner">
-                     <img src={item.product.images[0]} alt={item.product.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" />
+                     <img src={item.product.images[0]} alt={item.product.title} referrerPolicy="no-referrer" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" />
                   </div>
                   
                   <div className="flex-1 flex flex-col sm:flex-row sm:items-center justify-between w-full">

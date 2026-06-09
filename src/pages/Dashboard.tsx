@@ -30,7 +30,7 @@ export function Dashboard() {
           <div className="bg-white rounded-[3rem] border-4 border-sky-100 p-6 overflow-hidden md:col-span-1 h-fit shadow-xl">
             <div className="flex flex-col items-center mb-6">
               <div className="relative">
-                <img src={user.photoURL || `https://ui-avatars.com/api/?name=${user.displayName}`} alt={user.displayName || 'User'} className="w-24 h-24 rounded-full mb-4 border-4 border-yellow-300 shadow-inner" />
+                <img src={user.photoURL || `https://ui-avatars.com/api/?name=${user.displayName}`} alt={user.displayName || 'User'} referrerPolicy="no-referrer" className="w-24 h-24 rounded-full mb-4 border-4 border-yellow-300 shadow-inner" />
                 <div className="absolute -bottom-2 -right-2 bg-pink-500 text-white rounded-full p-2 shadow-lg border-2 border-white transform rotate-12">
                   <Star size={16} className="fill-current text-yellow-300" />
                 </div>

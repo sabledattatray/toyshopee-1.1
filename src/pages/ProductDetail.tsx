@@ -40,13 +40,13 @@ export function ProductDetail() {
           {/* Images */}
           <div className="space-y-4">
             <div className="aspect-square rounded-[2.5rem] overflow-hidden bg-sky-50 border-4 border-white shadow-sm group">
-              <img src={product.images[0]} alt={product.title} className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500" />
+              <img src={product.images[0]} alt={product.title} referrerPolicy="no-referrer" className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500" />
             </div>
             {product.images.length > 1 && (
               <div className="grid grid-cols-4 gap-4">
                 {product.images.map((img, i) => (
                   <div key={i} className="aspect-square rounded-2xl overflow-hidden bg-sky-50 border-4 border-white shadow-sm cursor-pointer hover:border-pink-300 transition-colors">
-                     <img src={img} alt="" className="w-full h-full object-cover" />
+                     <img src={img} alt="" referrerPolicy="no-referrer" className="w-full h-full object-cover" />
                   </div>
                 ))}
               </div>

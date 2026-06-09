@@ -54,7 +54,7 @@ export function Gallery() {
               style={{ transform: `rotate(${img.rotation}deg)` }}
             >
               <div className="bg-white rounded-[1.2rem] overflow-hidden aspect-square relative shadow-inner">
-                <img src={img.url} alt={img.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                <img src={img.url} alt={img.title} referrerPolicy="no-referrer" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-slate-900/30 transition-colors flex items-center justify-center">
                   <Maximize2 className="text-white opacity-0 group-hover:opacity-100 transform scale-50 group-hover:scale-100 transition-all duration-300 drop-shadow-md" size={40} />
                 </div>
@@ -94,7 +94,7 @@ export function Gallery() {
                 <X size={28} strokeWidth={3} />
               </button>
               <div className="rounded-[2rem] overflow-hidden bg-sky-50 shadow-inner">
-                <img src={selectedImage} alt="Fullscreen" className="w-full h-auto max-h-[75vh] object-contain" />
+                <img src={selectedImage} alt="Fullscreen" referrerPolicy="no-referrer" className="w-full h-auto max-h-[75vh] object-contain" />
               </div>
               <div className="text-center pt-4 font-black text-2xl text-slate-800">
                 Wow! What a beautiful toy! 🌟

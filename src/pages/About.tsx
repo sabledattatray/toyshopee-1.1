@@ -50,6 +50,7 @@ export function About() {
               <img 
                 src="https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?q=80&w=1470&auto=format&fit=crop" 
                 alt="Toy Store Inside" 
+                referrerPolicy="no-referrer"
                 className="relative z-10 w-full h-full object-cover rounded-[2rem] border border-white/10 shadow-2xl"
               />
             </div>
