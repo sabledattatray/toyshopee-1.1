@@ -199,14 +199,14 @@ export function Layout() {
             </div>
           </div>
           
-          <div className="border-t-2 border-sky-200/50 pt-8 flex items-center justify-between whitespace-nowrap overflow-x-auto gap-4 no-scrollbar">
-            <div className="flex items-center gap-4 lg:gap-8">
-              <span className="flex items-center gap-2 font-bold bg-white px-4 py-2 rounded-full shadow-sm border-2 border-green-100 text-slate-600"><div className="w-2.5 h-2.5 bg-green-500 rounded-full animate-pulse"></div> Local Delivery Zone: <b className="text-green-600">12.5 KM</b></span>
-              <span className="flex items-center gap-2 font-bold bg-white px-4 py-2 rounded-full shadow-sm border-2 border-indigo-100 text-slate-600"><div className="w-2.5 h-2.5 bg-indigo-500 rounded-full"></div> AI Personalization: <b className="text-indigo-600">Calibrated</b></span>
-              <span className="flex items-center gap-2 font-bold bg-white px-4 py-2 rounded-full shadow-sm border-2 border-pink-100 text-slate-600"><div className="w-2.5 h-2.5 bg-pink-500 rounded-full"></div> GST Pipeline: <b className="text-pink-600">Secure</b></span>
-              <span className="flex items-center gap-2 font-bold bg-white px-4 py-2 rounded-full shadow-sm border-2 border-orange-100 text-slate-600">Made by <a href="https://dattasble.com" target="_blank" rel="noreferrer" className="text-orange-500 hover:text-orange-600 flex items-center gap-1">Datta Sable <span className="text-lg">🫶</span></a></span>
+          <div className="border-t-2 border-sky-200/50 pt-8 flex flex-col lg:flex-row items-center justify-between gap-6">
+            <div className="flex flex-wrap justify-center lg:justify-start items-center gap-3 lg:gap-6">
+              <span className="flex items-center gap-2 font-bold bg-white px-4 py-2 rounded-full shadow-sm border-2 border-green-100 text-slate-600 text-sm whitespace-nowrap"><div className="w-2.5 h-2.5 bg-green-500 rounded-full animate-pulse"></div> Zone: <b className="text-green-600">12.5 KM</b></span>
+              <span className="flex items-center gap-2 font-bold bg-white px-4 py-2 rounded-full shadow-sm border-2 border-indigo-100 text-slate-600 text-sm whitespace-nowrap"><div className="w-2.5 h-2.5 bg-indigo-500 rounded-full"></div> AI: <b className="text-indigo-600">Active</b></span>
+              <span className="flex items-center gap-2 font-bold bg-white px-4 py-2 rounded-full shadow-sm border-2 border-pink-100 text-slate-600 text-sm whitespace-nowrap"><div className="w-2.5 h-2.5 bg-pink-500 rounded-full"></div> GST: <b className="text-pink-600">Secure</b></span>
+              <span className="flex items-center gap-2 font-bold bg-white px-4 py-2 rounded-full shadow-sm border-2 border-orange-100 text-slate-600 text-sm whitespace-nowrap">Made by <a href="https://dattasble.com" target="_blank" rel="noreferrer" className="text-orange-500 hover:text-orange-600 flex items-center gap-1">Datta Sable <span className="text-base leading-none">🫶</span></a></span>
             </div>
-            <div className="font-black text-slate-400 pl-4">
+            <div className="font-black text-slate-400 whitespace-nowrap pb-4 lg:pb-0">
               © 2024 Toy Shopee 🎈
             </div>
           </div>
