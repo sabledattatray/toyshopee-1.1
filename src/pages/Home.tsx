@@ -9,12 +9,12 @@ import React from 'react';
 const CATEGORY_ASSETS: Record<string, { icon: React.ElementType, image: string, color: string }> = {
   "Educational": { icon: BookOpen, image: "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=400&q=80", color: "bg-blue-400" },
   "Action Figures": { icon: Target, image: "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=400&q=80", color: "bg-red-400" },
-  "Board Games": { icon: Gamepad2, image: "https://loremflickr.com/cache/resized/65535_54536290387_5e782215b3_h_800_800_nofilter.jpg", color: "bg-green-400" },
+  "Board Games": { icon: Gamepad2, image: "https://images.unsplash.com/photo-1611891487122-2075bc951dd3?q=80&w=400&auto=format&fit=crop", color: "bg-green-400" },
   "Remote Control": { icon: Car, image: "https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=400&q=80", color: "bg-purple-400" },
   "Hot Wheels": { icon: Trophy, image: "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&w=400&q=80", color: "bg-orange-400" },
   "Soft Toys": { icon: Smile, image: "https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=400&q=80", color: "bg-pink-400" },
-  "Outdoor": { icon: Sun, image: "https://loremflickr.com/cache/resized/65535_53832312193_e8696c7615_h_800_800_nofilter.jpg", color: "bg-yellow-400" },
-  "Baby Toys": { icon: Baby, image: "https://loremflickr.com/cache/resized/3271_5709430499_79c81ac11e_h_800_800_nofilter.jpg", color: "bg-teal-400" },
+  "Outdoor": { icon: Sun, image: "https://images.unsplash.com/photo-1629853965576-8800bd8b3a0e?q=80&w=400&auto=format&fit=crop", color: "bg-yellow-400" },
+  "Baby Toys": { icon: Baby, image: "https://images.unsplash.com/photo-1540479859555-17af45c78602?q=80&w=400&auto=format&fit=crop", color: "bg-teal-400" },
 };
 
 // Component to represent a Single Product Card
@@ -126,7 +126,7 @@ export function Home() {
                whileHover={{ rotate: 5, scale: 1.05 }}
                className="relative z-10 w-full max-w-lg aspect-square rounded-full overflow-hidden border-[12px] border-white shadow-[0_20px_50px_rgba(0,0,0,0.2)] transform cursor-pointer flex items-center justify-center bg-yellow-300"
              >
-               <img src="https://loremflickr.com/cache/resized/65535_54545265890_19b2380fd5_k_1200_600_nofilter.jpg" alt="Fun Toys" referrerPolicy="no-referrer" className="w-full h-full object-cover" />
+               <img src="https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=1200&q=80" alt="Fun Toys" referrerPolicy="no-referrer" className="w-full h-full object-cover" />
              </motion.div>
              {/* Floating bubbles */}
              <div className="absolute top-10 right-0 w-16 h-16 bg-pink-400 rounded-full mix-blend-screen opacity-70 animate-bounce" style={{animationDuration: '2s'}}></div>

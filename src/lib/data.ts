@@ -93,7 +93,7 @@ export const MOCK_PRODUCTS: Product[] = [
     price: 1099,
     category: 'Board Games',
     images: [
-      'https://loremflickr.com/cache/resized/65535_54536290387_5e782215b3_h_800_800_nofilter.jpg'
+      'https://images.unsplash.com/photo-1611891487122-2075bc951dd3?q=80&w=800&auto=format&fit=crop'
     ],
     stock: 4,
     ageRecommendation: '8+ Years',
